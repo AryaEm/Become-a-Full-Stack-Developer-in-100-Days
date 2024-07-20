@@ -32,3 +32,19 @@ p {
   padding: 0 50px;
   font-size: 14px;
 }
+
+.frame {
+  width: 100%;
+  overflow: auto;
+}
+
+.frame1, .frame2 {
+  width: 50%;
+  float: left;
+  font-size: 14px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}

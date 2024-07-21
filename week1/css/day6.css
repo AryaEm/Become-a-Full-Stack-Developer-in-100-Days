@@ -1,0 +1,51 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.note {
+    color: cadetblue;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.skill {
+    padding: 20px;
+    background-color: thistle;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.main {
+    text-align: center;
+    font-weight: 700;
+}
+
+.hide-elements {
+    border: 1px solid;
+    padding: 15px;
+    width: 30%;
+    margin: auto;
+}
+
+.button {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.hide {
+    background-color: tomato;
+    color: white;
+    border: 1.5px solid black;
+}
+
+.show {
+    background-color: lawngreen;
+    color: white;
+    border: 1.5px solid black;
+}

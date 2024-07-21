@@ -18,3 +18,12 @@ function Hide() {
       x[i].style.display = "none";
     }
   });
+
+  function Change() {
+    var element = document.getElementById("changeText");
+    if (element.innerHTML == "Hello World!") {
+        element.innerHTML = "Goodbye Universe!";
+    } else {
+        element.innerHTML = "Hello World!";
+    }
+  }

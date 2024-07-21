@@ -30,6 +30,10 @@
     padding: 15px;
     width: 30%;
     margin: auto;
+    margin-bottom: 50px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
 }
 
 .button {
@@ -48,4 +52,27 @@
     background-color: lawngreen;
     color: white;
     border: 1.5px solid black;
+}
+
+.id-elements {
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+    padding: 50px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#changeText {
+    margin-bottom: 30px;
+}
+
+.changeButton {
+    padding: 8px 26px;
+    color: aliceblue;
+    background-color: turquoise;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
 }

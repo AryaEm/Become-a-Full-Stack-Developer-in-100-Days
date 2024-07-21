@@ -26,4 +26,4 @@ function Hide() {
     } else {
         element.innerHTML = "Hello World!";
     }
-  }
+  }       

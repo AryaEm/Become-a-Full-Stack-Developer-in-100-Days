@@ -35,7 +35,34 @@
     </div>
 
     <div class="iframe">
-        <iframe class="iframe1" src="/week1/day5.html" style="border:none;" title="Iframe Example"></iframe>
+      <iframe
+        class="iframe1"
+        src="/week1/day5.html"
+        style="border: none"
+        title="Iframe Example"
+      ></iframe>
+    </div>
+
+    <div
+      class="realtime"
+      onclick="document.getElementById('time').innerHTML = Date()"
+    >
+      <button class="time-btn" type="button">Show Date & Time</button>
+      <p id="time"></p>
+      <p id="text1"></p>
+    </div>
+
+    <div class="changesStyle">
+      <p id="text2">JavaScript can change the style of an HTML element.</p>
+      <button class="changesText2" type="button" onclick="changesStyle()">
+        Change Style
+      </button>
+    </div>
+
+    <div class="changesImage">
+      <div id="myImage"></div>
+      <button class="changeImage" type="button" onclick="image(1)">Istri 1</button>
+      <button class="changeImage" type="button" onclick="image(0)">Istri 2</button>
     </div>
 
     <script src="/week1/js/day6.js"></script>

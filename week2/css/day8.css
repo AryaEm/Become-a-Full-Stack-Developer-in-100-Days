@@ -24,7 +24,7 @@ section {
     display: -webkit-flex;
     display: flex;
     height: max-content;
-    height: 400px;
+    height: fit-content;
 }
 
 section p {
@@ -57,10 +57,12 @@ nav a {
 article {
     width: 80%;
     background-color: lightsteelblue;
+    padding-block: 20px;
+
 }
 
 article p {
-    padding-inline: 20px;
+    padding: 0 20px;
 }
 
 article h2{

@@ -7,7 +7,42 @@
     <link rel="stylesheet" href="/week2/css/day10.css" />
   </head>
   <body>
-    <canvas
+    <div class="get-location">
+      <div class="head">
+        <h2>HTML Geolocation</h2>
+      </div>
+      <div class="btn-1">
+        <button onclick="getCoordinate()">Get Your Coordinates</button>
+      </div>
+      <div class="result">
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <div class="drag-drop">
+      <div class="head">
+        <h2>Drag image into the box</h2>
+      </div>
+
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <div class="image-1">
+        <img
+          id="drag-item"
+          src="/week1/assets/zetaaaa.png"
+          draggable="true"
+          alt="zeta"
+          ondragstart="drag(event)"
+          width="200px"
+        />
+      </div>
+    </div>
+
+    <script src="/week2/js/day10.js"></script>
+  </body>
+</html>
+
+<!-- <canvas
       id="canvas"
       width="200px"
       height="100px"
@@ -21,8 +56,4 @@
       style="border: 1px solid #d3d3d3"
     >
       Your browser does not support the HTML canvas tag.</canvas
-    >
-
-    <script src="/week2/js/day10.js"></script>
-  </body>
-</html>
+    > -->
